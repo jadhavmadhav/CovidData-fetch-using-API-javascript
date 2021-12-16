@@ -42,16 +42,26 @@ table td{
 
         .card-header h4{
             font-size: 20px;
+            text-shadow: 1px 2px 1px blue ;
         }
         .card p{
             font-size: 15px;
         }
 
          table th{
-             font-size: 12px;
+             font-size: 10px;
+             font-weight: 900;
+             color: white;
+              border: 1px solid black;
          }
         table td{
             font-size: 10px;
+            
+           
+        }
+
+        tr ,td{
+            border: 1px solid black;
         }
 }
  
