@@ -1,0 +1,58 @@
+ 
+body{
+    height: 100vh;
+   background-attachment: fixed;
+    background-image: linear-gradient(40deg, gold ,rgba(245, 106, 238, 0.678));
+}
+.card{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(150deg ,rgba(255, 81, 0, 0.9),rgba(255, 255, 255, 0.904),rgba(0, 128, 0, 0.877)) ,url('https://www.who.int/images/default-source/mca/mca-covid-19/coronavirus-2.tmb-479v.jpg?Culture=en&sfvrsn=4dba955c_6%20479w');
+    box-shadow: 0.5px 0.5px 5px 1px black;
+     
+}
+ 
+.card-header h4{
+    font-size:45px;
+     text-shadow: 2px 5px 5px rgb(39, 3, 243);
+}
+.card p{
+    font-weight: bold;
+    font-size: 20px;
+}
+ 
+.search input{ display: inline-block;
+    width: 40%;
+    margin-left: 10px; 
+    padding: 10px;
+}
+.search input:nth-child(2){
+    width: 150px;
+}
+
+table td{
+    font-weight: bold;
+}
+
+@media screen and (max-width:576px) {
+        .card{
+            width: 100%;
+            padding: 5px;
+        }
+
+        .card-header h4{
+            font-size: 20px;
+        }
+        .card p{
+            font-size: 15px;
+        }
+
+         table th{
+             font-size: 12px;
+         }
+        table td{
+            font-size: 10px;
+        }
+}
+ 
+ 
